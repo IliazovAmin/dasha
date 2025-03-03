@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Категории мемов: смешные, философские, мемы про котов и многое другое!">
+    <meta name="keywords" content="категории мемов, мемы по темам, мемы про котов">
+    <title>Категории мемов | MemeHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #525252;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: #222;
+            padding: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffaa00;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .category-card {
+            background: #222;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.105);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .category-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 15px rgba(255, 255, 255, 0.548);
+        }
+        .category-card img {
+            width: 100%;
+            height: 150px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #222;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Категории мемов</h1>
+        <nav>
+            <ul>
+                <li><a href="popular.html">Главная</a></li>
+                <li><a href="popular.html">Популярные мемы</a></li>
+                <li><a href="create.html">Создать мем</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h2>Выберите свою категорию</h2>
+    <p>Мемы по темам: смешные, грустные, философские, мемы про котов.</p>
+
+    <div class="container">
+        <div class="category-card">
+            <img src="funny-memes.jpg" alt="Смешные мемы">
+            <h3>Смешные</h3>
+        </div>
+        <div class="category-card">
+            <img src="sad-memes.jpg" alt="Грустные мемы">
+            <h3>Грустные</h3>
+        </div>
+        <div class="category-card">
+            <img src="philosophy-memes.jpg" alt="Философские мемы">
+            <h3>Философские</h3>
+        </div>
+        <div class="category-card">
+            <img src="cat-memes.jpg" alt="Мемы про котов">
+            <h3>Мемы про котов</h3>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 MemeHub. Все права защищены.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Самые популярные мемы, которые взорвали интернет!">
+    <meta name="keywords" content="популярные мемы, лучшие мемы, трендовые мемы">
+    <title>Популярные мемы | MemeHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #552f2f;
+            color: #a6a3a3;
+            text-align: center;
+        }
+        header {
+            background-color: #222;
+            padding: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffaa00;
+        }
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 30px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .meme-card {
+            background: #222;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+            width: 80%;
+        }
+        .meme-card img {
+            width: 60%;
+            border-radius: 10px;
+            margin-top: 10px;
+            transition: transform 0.3s;
+        }
+        .meme-card img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #222;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Популярные мемы</h1>
+        <nav>
+            <ul>
+                <li><a href="popular.html">Главная</a></li>
+                <li><a href="create.html">Создать мем</a></li>
+                <li><a href="categories.html">Категории</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h2>Лучшие мемы дня</h2>
+        <p>Здесь собраны самые смешные мемы, которые стали вирусными.</p>
+        
+        <div class="meme-card">
+            <h3>Мем №1</h3>
+            <img src="meme1.jpg" alt="Смешной популярный мем">
+        </div>
+        
+        <div class="meme-card">
+            <h3>Мем №2</h3>
+            <img src="meme2.jpg" alt="Трендовый мем в интернете">
+        </div>
+        
+        <div class="meme-card">
+            <h3>Мем №3</h3>
+            <img src="meme3.jpg" alt="Лучший мем дня">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 MemeHub. Все права защищены.</p>
+    </footer>
+</body>
+</html>
